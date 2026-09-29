@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+When camera was moved off of the Cat gameObject, the camera no longer moved in conjunction with the cat.
+https://sour-ch1p.itch.io/in-class-activity-1
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.

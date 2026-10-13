@@ -13,11 +13,16 @@ The error you got after Step 4 of Part 2 told you something useful about why tha
 A semi colon was needed at the end of the line.
 
 ### W3
-1. Ouput/return type -> string. Input/parameters -> float and a boolean.
+1.
+Ouput/return type -> string. Input/parameters -> float and a boolean.
 
-2. Ouput-> void. Input-> float.
+Ouput-> void. Input-> float.
 
-3. Output-> boolean. Input-> float.
+Output-> boolean. Input-> float.
+
+2. The metaphor my group chose was a component is like a game character, a class is like a spell, and the methods are attributes of the spell, and the variables are the statis effects.
+
+3. I believe the speeed multiplier is affecting the color.
 
 ## Open-Source Assets
 ### W1

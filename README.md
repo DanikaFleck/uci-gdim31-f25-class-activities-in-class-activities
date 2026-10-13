@@ -12,6 +12,13 @@ The ball cannot .5 bounce or .3 bounce so we keep it a whole number using int.
 The error you got after Step 4 of Part 2 told you something useful about why that line of code was broken- what was it?
 A semi colon was needed at the end of the line.
 
+### W3
+1. Ouput/return type -> string. Input/parameters -> float and a boolean.
+
+2. Ouput-> void. Input-> float.
+
+3. Output-> boolean. Input-> float.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

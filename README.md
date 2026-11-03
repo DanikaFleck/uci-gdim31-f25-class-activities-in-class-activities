@@ -25,6 +25,7 @@ Output-> boolean. Input-> float.
 3. I believe the speeed multiplier is affecting the color.
 
 ### W4
+<img width="1152" height="648" alt="OnCollisionStay" src="https://github.com/user-attachments/assets/13853263-9859-4b63-aa9f-5f4616d6da14" />
 
 ## Open-Source Assets
 ### W1

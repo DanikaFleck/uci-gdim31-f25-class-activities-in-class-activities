@@ -27,6 +27,19 @@ Output-> boolean. Input-> float.
 ### W4
 <img width="1152" height="648" alt="OnCollisionStay" src="https://github.com/user-attachments/assets/13853263-9859-4b63-aa9f-5f4616d6da14" />
 
+### W5
+
+Deer Class
+
+1. The class will need member variables for the movement speed, turn speed, bool for if the deer is walking
+
+2. The methods needed will include Start() and Update() and a collision method
+
+3. The collision method should return a bool to see if the deer is colliding with the intended object. The update should be calling the collision method. The start method should start the movement. Not exactly sure how to stop the deer, but hopefully I’ll figure that out.
+
+(after completing the assignment I was very wrong about my plan)
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

@@ -27,7 +27,7 @@ Output-> boolean. Input-> float.
 ### W4
 <img width="1152" height="648" alt="OnCollisionStay" src="https://github.com/user-attachments/assets/13853263-9859-4b63-aa9f-5f4616d6da14" />
 
-### W5
+### W6
 
 Deer Class
 
@@ -38,6 +38,20 @@ Deer Class
 3. The collision method should return a bool to see if the deer is colliding with the intended object. The update should be calling the collision method. The start method should start the movement. Not exactly sure how to stop the deer, but hopefully I’ll figure that out.
 
 (after completing the assignment I was very wrong about my plan)
+
+### W7
+1. What member variables does this class need?
+
+a serialized speed variable, an array of bat game objects, boolean to determine if the bat is chasing the player
+
+2. What methods does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+
+Update(), Chase(), Enable(), Disable(), SetDestination, GetComponent<>()
+
+3. What should the method(s) do?
+
+Enable and disable will be used to start and stop the chase. SetDestination wll be used to make the bats move towards the player.
+
 
 
 ## Open-Source Assets

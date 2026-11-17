@@ -52,6 +52,12 @@ Update(), Chase(), Enable(), Disable(), SetDestination, GetComponent<>()
 
 Enable and disable will be used to start and stop the chase. SetDestination wll be used to make the bats move towards the player.
 
+### W8
+
+What was wrong with the code in step 2? 
+
+The code was using transform.postition which changes the position of the object in the world. Whereas when I changed it to transform.Translate(), that moves the object in relation to itself.
+
 
 
 ## Open-Source Assets

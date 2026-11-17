@@ -73,14 +73,14 @@ public class BatManager : MonoBehaviour
             BatW6 bat = _bats[i];
             
 
-            if (Vector3.Distance(bat.transform.position, _playerTransform.position) <= _interactDistance)
-            {
-               bat.SetDestination()
-            }
-            else
-            {
-                StopChase
-            }
+            //if (Vector3.Distance(bat.transform.position, _playerTransform.position) <= _interactDistance)
+           // {
+          //     bat.SetDestination()
+           // }
+           // else
+           //// {
+            //    StopChase
+           // }
         }
         // STEP 4
         // Also inside this for loop, if the distance between the bat and the

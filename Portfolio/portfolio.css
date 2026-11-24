@@ -1,0 +1,58 @@
+
+
+h1 { 
+    letter-spacing: 0.25em; 
+    margin-bottom: 0;
+    margin-top: 0; 
+} 
+
+h1, h2, h3, h4, footer { 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+} 
+
+h1, h2, h3, h4 { 
+    color: #000000; 
+    text-shadow: 1px 1px #8d8d8d; 
+} 
+
+h3 , h4{ 
+    color: rgb(0, 0, 0); 
+} 
+
+gallery-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform .3s ease,  box-shadow .3s ease;
+}
+
+.gallery-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform .3s ease;
+}
+
+.gallery-image figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    padding: .5em;
+    font-size: .9rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .3 ease, transform .3 ease;
+    transform: translateY(20%);
+    
+}
+
+/*hover*/
+.gallery-image:hover figcaption {
+    opacity: 1;
+    transform: translateY(0);
+}

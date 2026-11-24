@@ -58,7 +58,11 @@ What was wrong with the code in step 2?
 
 The code was using transform.postition which changes the position of the object in the world. Whereas when I changed it to transform.Translate(), that moves the object in relation to itself.
 
+### W9
 
+- When working on the final today in class, I started creating a tile pallete. 
+- I was reviewing the notes from Week 6 to create a tile map. 
+- I am still confused how to make a sprite sheet out of the tile map, but I'll watch a youtube video tonight.
 
 ## Open-Source Assets
 ### W1
